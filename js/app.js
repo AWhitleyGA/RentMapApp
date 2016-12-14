@@ -25,7 +25,7 @@ angular
   ])
 
 function FavoriteFactoryFunction($resource) {
-  return $resource("https://evening-woodland-89369.herokuapp.com/places/:zip.json")
+  return $resource("https://project-3-rent-map.herokuapp.com/places/:zip.json")
 }
 
 // "https://evening-woodland-89369.herokuapp.com/places/:zip.json"
